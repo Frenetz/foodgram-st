@@ -1,7 +1,14 @@
 # Foodgram  
 «Фудграм» — сайт для публикации рецептов, добавления их в избранное и подписки на авторов.  
 
-### Тестирование (через Postman)  
+### Стек технологий
+1. Django
+2. React
+3. Nginx
+4. Docker
+5. PostgreSQL
+
+### Запуск проекта через встроенный сервер Django
 1. Клонировать: `git clone git@github.com:Frenetz/foodgram-st.git`  
 2. Перейти в директорию с проектом: `cd foodgram-st/backend/foodgram`  
 3. Виртуальное окружение:  
@@ -66,3 +73,12 @@
     ```bash
     docker-compose exec backend python manage.py collectstatic
     ```
+
+### Эндпоинты
+1. Приложение: *http://localhost/*
+2. Документация: *http://localhost/api/docs/*
+3. Административная панель: *http://localhost/admin/*
+
+### Контактные данные
+#### Автор: Ходырев Федор Сергеевич
+#### Telegram: @frenetz1

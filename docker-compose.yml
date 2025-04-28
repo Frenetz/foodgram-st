@@ -11,7 +11,7 @@ services:
     restart: always
 
   backend:
-    image: frenetz/final_project_back:v4
+    image: frenetz/final_project_back:v5
     container_name: foodgram-back
     depends_on:
       - db
